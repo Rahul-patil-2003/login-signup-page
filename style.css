@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+form {
+width: 300px;
+    margin: 173px auto;
+    padding: 46px;
+    border: 1px solid #ccc;
+    border-radius: 19px;
+    background-color: white;
+}
+
+h1.header {
+    text-align: center;
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+.signup-link {
+    text-align: center;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
